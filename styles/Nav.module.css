@@ -1,0 +1,33 @@
+.nav {
+  height: 80px;
+  padding: 10px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.singupbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  font-size: 14px;
+  padding-right: 2px;
+  width: 141px;
+  height: 42px;
+  background: #e0eafe;
+  border-radius: 5px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}

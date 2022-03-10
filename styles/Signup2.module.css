@@ -1,0 +1,11 @@
+.signup_page_size {
+  width: 100vw;
+  height: 958px;
+}
+.signup_field {
+  position: absolute;
+  width: 549px;
+  height: 846px;
+  left: 986px;
+  top: 184px;
+}

@@ -1,0 +1,248 @@
+.signUpLayout {
+  position: relative;
+  width: 1920px;
+  height: 90px;
+
+  background: #eff0fc;
+}
+.section {
+  position: relative;
+  width: 375px;
+  height: 100%;
+  background: #d7d7d7;
+  opacity: 0.9;
+}
+
+.blueCurve {
+  position: absolute;
+  width: 375px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+
+.top {
+  position: absolute;
+  width: 375px;
+  height: 382px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(140.13deg, #406cda -4.34%, #48b0e0 104.04%);
+}
+
+.top_mask_curve {
+  position: absolute;
+  width: 370.83px;
+  height: 234.29px;
+  /* left: 0 .45px; */
+  top: 92.31px;
+}
+.top_user_icon {
+  position: absolute;
+  left: 6.4%;
+  right: 82.93%;
+  top: 11.7%;
+  bottom: 83.37%;
+
+  /* background: #ffffff; */
+}
+.top_signup_text {
+  position: absolute;
+  width: 88px;
+  height: 33px;
+  left: 24px;
+  top: 100px;
+
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+}
+
+.top_signup_description {
+  position: absolute;
+  width: 308px;
+  height: 38px;
+  left: 24px;
+  top: 140px;
+
+  /* font-family: Open Sans; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.inputField {
+  position: absolute;
+  width: 375px;
+  height: 500px;
+  left: 0px;
+  top: 250px;
+  color: #222222;
+  background: #ffffff;
+  border-radius: 35px 35px 0px 0px;
+}
+
+.phoneDiv {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f1ff;
+  border-radius: 50px;
+  padding: 18px;
+  width: 305px;
+  height: 55px;
+  font-size: 15px;
+
+  left: 36px;
+  top: 25px;
+}
+.inputPhone {
+  background: transparent;
+  margin-left: 10px;
+  outline: none;
+}
+.nameDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+
+  left: 36px;
+  top: 100px;
+  font-size: 15px;
+
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+.inputName {
+  background: transparent;
+  margin-left: 10px;
+  outline: none;
+}
+
+.passwordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+  left: 36px;
+  top: 178px;
+  font-size: 15px;
+
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+
+.inputPassword {
+  background: transparent;
+  margin-left: 10px;
+  outline: none;
+}
+.referDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 55px;
+  left: 36px;
+  top: 250px;
+  font-size: 15px;
+
+  background: #f0f1ff;
+  border-radius: 50px;
+}
+.inputRefer {
+  background: transparent;
+  margin-left: 10px;
+  outline: none;
+}
+
+.accountSignUp {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 77.5px;
+  top: 320px;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  color: #ffffff;
+
+  background: #406cda;
+  border-radius: 35px;
+}
+
+.bottom_singup_text {
+  position: absolute;
+  width: 154px;
+  height: 19px;
+  left: 111px;
+  top: 380px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #222222;
+}
+.facebook_signin {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  left: 137px;
+  padding: 10px;
+  top: 400px;
+  font-size: 10px;
+
+  background-color: #3b5999;
+}
+.google_signin {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 196px;
+  border-radius: 50%;
+  top: 400px;
+  padding: 12px;
+  background-color: #dd4b39;
+}
+.bottom_text {
+  position: absolute;
+  width: 277px;
+  height: 32px;
+  left: 59px;
+  top: 450.79px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #575757;
+}
+
+.bottom_text_ok_sign {
+  position: absolute;
+  left: 13.83%;
+  right: 20.83%;
+  top: 450.79px;
+  bottom: 16.67%;
+
+  /* background: #3e6ed7; */
+}
