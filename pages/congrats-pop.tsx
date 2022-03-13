@@ -8,7 +8,7 @@ import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { MdCheckBox } from "react-icons/md";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
-const CreateAccount = () => {
+const CongratsPop = () => {
   return (
     <section className=" min-w-screen h-full md:hidden">
       <div className="absolute bg-[#000] w-full h-96"></div>
@@ -29,4 +29,4 @@ const CreateAccount = () => {
   );
 };
 
-export default CreateAccount;
+export default CongratsPop;
