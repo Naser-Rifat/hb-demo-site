@@ -1,15 +1,8 @@
 import React from "react";
 import { BsArrowLeft } from "react-icons/bs";
-import { HiOutlineDeviceMobile } from "react-icons/hi";
-import { BiUser } from "react-icons/bi";
-import { RiLockPasswordLine } from "react-icons/ri";
-import { VscReferences } from "react-icons/vsc";
-import { MdCheckBoxOutlineBlank } from "react-icons/md";
-import { MdCheckBox } from "react-icons/md";
-import { FiEye, FiEyeOff } from "react-icons/fi";
-const SignIn = () => {
+
+const Otp = () => {
   return (
-    //  mobile view
     <section>
       <div className="min-w-screen h-full md:hidden ">
         <div className=" flex flex-col h-[100vh] relative   border-gray-400 m-2">
@@ -86,16 +79,20 @@ const SignIn = () => {
             </svg>
 
             <img
-              className="absolute ml-[25px]  mt-[95px]"
-              src="/images/hb-full-logo.png"
+              className="absolute ml-[25px] mt-[95px]"
+              src="/images/otp-logo.png"
+              alt="otp-logo"
             />
             <h1 className=" absolute mt-[145px] ml-[25px] text-2xl text-white  [font-weight:500]">
-              Welcome
+              Enter OTP
             </h1>
-            <div className=" absolute mt-[180px] ml-[25px] flex justify-center items-center">
-              <p className=" text-sm text-white  ">Don’t have an account?</p>
-              <button className="w-[6rem] h-[1.3rem] ml-2 text-[.8em] border-[1px] text-white rounded-[10px]  ">
-                Register now
+            <p className=" absolute mt-[180px] ml-[25px] text-sm text-white  ">
+              Please enter 4 digit code sent to your registered mobile number
+            </p>
+            <div className=" absolute mt-[230px] ml-[25px]  flex justify-center items-center">
+              <p className=" text-sm text-white  ">+88 01712567904</p>
+              <button className="w-[3rem] h-[1.3rem]    ml-2   text-[.8em] border-[1px] text-white rounded-[10px]  ">
+                Edit
               </button>
             </div>
 
@@ -109,48 +106,48 @@ const SignIn = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full  rounded-t-[35px] mt-[270px]  bg-white ">
-            <form className="mt-[2rem]  text-center">
-              <div className="w-[90%]  h-[3rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
-                <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
+          <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-96  bg-white ">
+            <div className=" flex justify-center items-center mt-[2rem] mx-[.8em]">
+              <div className="w-[4em] h-[4em] flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
                 <input
-                  placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1em]  bg-transparent   focus:outline-none"
+                  className="bg-transparent w-[12px] outline-none mx-auto"
+                  placeholder="0"
                 />
               </div>
-              <div className=" w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
-                <RiLockPasswordLine className=" text-gray-500 ml-[1.5em]" />
+              <div className="w-[4em] h-[4em] flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
                 <input
-                  placeholder="Password"
-                  className="w-[80%] h-[95%] ml-[1.2em] bg-transparent     focus:outline-none"
+                  className="bg-transparent w-[12px] outline-none mx-auto"
+                  placeholder="0"
                 />
-                {/* <FiEye className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" /> */}
-                <FiEyeOff className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" />
               </div>
-
-              <button className="w-[65%] h-[3rem] rounded-full  mb-3  bg-[#406CDA] text-white">
-                Sign Up
+              <div className=" w-[4em] h-[4em]  flex justify-center items-center mx-[.2em]  bg-gray-200 rounded-full">
+                <input
+                  className="bg-transparent w-[12px] outline-none mx-auto"
+                  placeholder="0"
+                />
+              </div>
+              <div className="w-[4em] h-[4em]  flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
+                <input
+                  className="bg-transparent w-[12px] outline-none mx-auto"
+                  placeholder="0"
+                />
+              </div>
+            </div>
+            <div className="w-full flex justify-center items-center mt-[2rem]">
+              <button className="w-[50%] h-[4rem]  rounded-full  mb-3  bg-[#406CDA] text-white">
+                Submit
               </button>
-            </form>
-            <div className="text-center">
-              <p className="mb-3 font-medium">Or quick continue with</p>
-              <div className="flex justify-center items-center mb-2">
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
-                  f
-                </div>
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
-                  G
-                </div>
-              </div>
-              <div className="flex justify-center items-center w-[80%] mx-auto mb-5 ">
-                {/* <MdCheckBoxOutlineBlank/> */}
-
-                <p className="text-[12px]">
-                  <MdCheckBox className="mb-1 inline mr-1" />
-                  By signing up you accept our Terms & Conditions and Privacy
-                  Policy
-                </p>
-              </div>
+            </div>
+            <div className=" flex flex-col justify-center items-center">
+              <h3 className="text-[.9rem]">
+                Not received code?
+                <span className=" text-blue-400 ml-[.2em]">Resend</span>
+              </h3>
+              <p className="text-[.65rem] leading-1">
+                Get OTP again in{" "}
+                <span className="text-red-400"> 05:00 Seconds</span>
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -159,4 +156,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Otp;
