@@ -17,10 +17,10 @@ const CongratsPop = () => {
           <img className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
           <div className="flex flex-col justify-center items-center my-[2rem]">
             <h1 className="text-[1.8em] font-medium text-[#3D6ED6]">
-              Password Changed
+              Congratulation
             </h1>
-            <p className=" text-center w-[70%] text-[#3D6ED6]">
-              Congratulation!! You’ve successfully changed your password.
+            <p className=" text-center text-[.9em]  text-[#3D6ED6]">
+              Successfully Create Your Account.
             </p>
           </div>
         </div>

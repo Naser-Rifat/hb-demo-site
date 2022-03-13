@@ -17,11 +17,14 @@ const PassChangedPop = () => {
           <img className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
           <div className="flex flex-col justify-center items-center my-[2rem]">
             <h1 className="text-[1.8em] font-medium text-[#3D6ED6]">
-              Congratulation
+              Password Changed
             </h1>
-            <p className=" text-center text-[.9em]  text-[#3D6ED6]">
-              Successfully Create Your Account.
+            <p className=" text-center w-[70%] text-[#3D6ED6]">
+              Congratulation!! You’ve successfully changed your password.
             </p>
+            <button className="w-[40%] mt-[2rem] h-[3rem] rounded-[6px]  mb-3  bg-[#406CDA] text-white">
+              Back to Login
+            </button>
           </div>
         </div>
       </div>
