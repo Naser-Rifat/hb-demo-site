@@ -12,7 +12,7 @@ const ForgetPass = () => {
   return (
     <section className="">
       <div className="min-w-screen h-full md:hidden ">
-        <div className=" flex flex-col h-[100vh] relative   border-gray-400 m-2">
+        <div className=" flex flex-col h-[100vh] relative   ">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
               // width="375"

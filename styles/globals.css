@@ -23,3 +23,9 @@ a {
 .signupPageColor {
   background: linear-gradient(140.13deg, #2c62d6 -4.34%, #48b0e0 104.04%);
 }
+
+.shape {
+  /* -webkit-clip-path: polygon(0% 0%, 38% 50%, 100% 50%, 100% 100%, 0% 100%); */
+  clip-path: polygon(0% 0%, 50% 40%, 100% 40%, 100% 100%, 0% 100%);
+  /* border: 5px solid black; */
+}
