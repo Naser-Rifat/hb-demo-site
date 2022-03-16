@@ -108,8 +108,6 @@ const Signup = () => {
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
-              // width="375"
-              height="382"
               className=" absolute w-full  "
               viewBox="0 0 375 382"
               fill="none"
@@ -117,16 +115,18 @@ const Signup = () => {
             >
               <rect width="375" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
+                className="w-full"
                 id="mask0_7_26"
                 style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
-                width="375"
+                // width="375"
                 height="382"
               >
                 <rect
-                  width="375"
+                  // width="375"
+                  className="w-full"
                   height="382"
                   fill="url(#paint1_linear_7_26)"
                 />

@@ -108,30 +108,22 @@ const Otp = () => {
 
           <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-96  bg-white ">
             <div className=" flex justify-center items-center mt-[2rem] mx-[.8em]">
-              <div className="w-[4em] h-[4em] flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
-                <input
-                  className="bg-transparent w-[12px] outline-none mx-auto"
-                  placeholder="0"
-                />
-              </div>
-              <div className="w-[4em] h-[4em] flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
-                <input
-                  className="bg-transparent w-[12px] outline-none mx-auto"
-                  placeholder="0"
-                />
-              </div>
-              <div className=" w-[4em] h-[4em]  flex justify-center items-center mx-[.2em]  bg-gray-200 rounded-full">
-                <input
-                  className="bg-transparent w-[12px] outline-none mx-auto"
-                  placeholder="0"
-                />
-              </div>
-              <div className="w-[4em] h-[4em]  flex justify-center items-center mx-[.2em]  bg-gray-200  rounded-full">
-                <input
-                  className="bg-transparent w-[12px] outline-none mx-auto"
-                  placeholder="0"
-                />
-              </div>
+              <input
+                className=" w-[4em] h-[4em] text-center outline-none bg-gray-200  rounded-full mx-1"
+                placeholder="0"
+              />
+              <input
+                className=" w-[4em] h-[4em] text-center outline-none bg-gray-200  rounded-full mx-1"
+                placeholder="0"
+              />
+              <input
+                className=" w-[4em] h-[4em] text-center outline-none bg-gray-200  rounded-full mx-1"
+                placeholder="0"
+              />
+              <input
+                className=" w-[4em] h-[4em] text-center outline-none bg-gray-200  rounded-full mx-1"
+                placeholder="0"
+              />
             </div>
             <div className="w-full flex justify-center items-center mt-[2rem]">
               <button className="w-[50%] h-[4rem]  rounded-full  mb-3  bg-[#406CDA] text-white">

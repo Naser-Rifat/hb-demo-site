@@ -12,7 +12,7 @@ const SignIn = () => {
     //  mobile view
     <section>
       <div className="min-w-screen h-full md:hidden ">
-        <div className=" flex flex-col h-[100vh] relative  ">
+        <div className=" flex flex-col h-[100vh] relative   ky7.">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
               // width="375"
@@ -115,14 +115,14 @@ const SignIn = () => {
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1em]  bg-transparent   focus:outline-none"
+                  className=" w-[80%] h-[95%] ml-[1em]  bg-gray-100   outline-none"
                 />
               </div>
               <div className=" w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
                 <RiLockPasswordLine className=" text-gray-500 ml-[1.5em]" />
                 <input
                   placeholder="Password"
-                  className="w-[80%] h-[95%] ml-[1.2em] bg-transparent     focus:outline-none"
+                  className="w-[80%] h-[95%] ml-[1.2em] bg-transparent     outline-none"
                 />
                 {/* <FiEye className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" /> */}
                 <FiEyeOff className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" />
